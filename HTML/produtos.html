@@ -1,0 +1,190 @@
+<doctype html>
+  <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Produtos-Ikezaki Racing | Ecommerce Website</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family-Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+ <body>
+<div class="header">
+
+  <div class="container">
+  <div class="navbar">
+    
+
+     <nav>
+      <ul id="MenuItens">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="produtos.html">PRODUTOS</a></li>
+        <li><a href="contato.html">CONTATO</a></li>
+        <li><a href="accout.html">LOGIN</a></li>
+      </ul>
+     </nav>
+     <img src="C:\Users\55119\Desktop\Site\img\menu.png" class="menu-icon" onclick="menutoggle()">
+  </div>
+  <div class="row">
+    <div class="col-2">
+      <h1>Ikezaki Racing<br></h1><p>Artigos automobilísticos</p>
+      <a href="Quemsomos.html" class="btn">Quem somos &#8594;</a>
+
+    </div>
+    <div class="col-2">
+       <img src="C:\Users\55119\Desktop\Site\img\Ikezaki.png">
+    </div>
+</div>
+</div>
+</div>
+
+  <div class="small-container">
+
+<div class="row row-2">
+  <h2>Todos os produtos</h2>
+  <select>
+    <option>Moletom</option>
+    <option>Proteção</option>
+    <option>Default Shorting</option>
+  </select>
+</div>
+</div>
+
+<!-----featured products----->
+<div class="small-container">
+  
+  <div class="row">
+    <div class="col-4">
+      <img src="C:\Users\55119\Desktop\Site\img\vermelho01.png">
+      <h4><a href="produtos_detalhes.html">Moletom refletivo</a></h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+      </div>
+      <p>$169.90</p>
+    </div>
+
+    <div class="col-4">
+      <img src="C:\Users\55119\Desktop\Site\img\jeansclaro.png">
+      <h4><a href="produtos_detalhes02.html">Jaqueta jeans clara</a></h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+        <i class="fa fa-star-o"></i>
+      </div>
+      <p>259.90</p>
+    </div>
+
+    <div class="col-4">
+      <img src="C:\Users\55119\Desktop\Site\img\jeansescuro02.png">
+      <h4><a href="produtos_detalhes03.html">Jaqueta jeans escuro</a></h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+      </div>
+      <p>$259.90</p>
+    </div>
+
+    <div class="col-4">
+      <img src="C:\Users\55119\Desktop\Site\img\pretorefletivo.png">
+      <a href="produtos_detalhes04.html"><h4>Moletom refletivo</h4></a>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+      </div>
+      <p>$169.90</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+  <!----------brands-------->
+   <div class="brands">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-5">
+          <img src="C:\Users\55119\Desktop\Site\img\elo02.png">
+        </div>
+
+        <div class="col-5">
+          <img src="C:\Users\55119\Desktop\Site\img\master.png">
+        </div>
+
+        <div class="col-5">
+          <img src="C:\Users\55119\Desktop\Site\img\visa01.png">
+        </div>
+
+        <div class="col-5">
+          <img src="C:\Users\55119\Desktop\Site\img\pix.png">
+        </div>
+
+        <div class="col-5">
+          <img src="C:\Users\55119\Desktop\Site\img\boleto.png">
+        </div>
+
+      </div>
+
+   </div>
+
+<!--------footer---------->
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      </div>
+
+       <div class="footer-col-2">
+        <img src="C:\Users\55119\Desktop\Site\img\Ikezaki.png">
+      </div>
+
+      <div class="footer-col-3">
+        <h3>Redes sociais</h3>
+         <ul>
+          <li><a href="https://m.facebook.com/Ikezaki-Racing-708913446118278/">Facebook</a></li>
+          <li><a href="https://lista.mercadolivre.com.br/ikesaki-oficial#D[A:ikesaki%20oficial,L:undefined]"> Mercado livre</a></li>
+        </ul>
+      </div>
+
+    </div>
+      <hr>
+      <p class="copyright">Projeto 2021-Web Standarts</p>
+  </div>
+</div>
+
+
+<!--------js for toggle menu------>
+<script>
+  var MenuItens = document.getElementById("MenuItens");
+  MenuItens.style.maxHeight ="0px";
+  function menutoggle(){
+    if(MenuItens.style.maxHeight =="0px")
+    {
+      MenuItens.style.maxHeight== "200px";
+    }
+    else
+    {
+      MenuItens.style.maxHeight =="0px";
+    }
+  }
+</script>
+ </body>
+ </html>
+
+
+  
+
+
+
+

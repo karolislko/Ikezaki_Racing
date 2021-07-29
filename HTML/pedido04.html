@@ -1,0 +1,117 @@
+<doctype html>
+  <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>All products-Ikezaki Racing | Ecommerce Website</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family-Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+ <body>
+<div class="header">
+
+
+  <div class="container">
+  <div class="navbar">
+     <nav>
+      <ul id="MenuItens">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="produtos.html">PRODUTOS</a></li>
+        <li><a href="contato.html">CONTATO</a></li>
+        <li><a href="accout.html">LOGIN</a></li>
+      </ul>
+     </nav>
+     <img src="C:\Users\55119\Desktop\Site\img\menu.png" class="menu-icon" onclick="menutoggle()">
+  </div>
+  <div class="row">
+    <div class="col-2">
+      <h1>Ikezaki Racing<br></h1><p>Artigos automobilísticos</p>
+      <a href="Quemsomos.html" class="btn">Quem somos &#8594;</a>
+
+    </div>
+    <div class="col-2">
+       <img src="C:\Users\55119\Desktop\Site\img\Ikezaki.png">
+    </div>
+</div>
+</div>
+</div>
+
+<!-----------cart itens details------>
+<div class="small-container cart-page">
+  <table>
+     
+      <th>Formulário de pedidos</th>
+      <th>Ikezaki racing</th>
+      </div>
+
+  </table>
+ <form action="envia_fale.php" method="post" name="form">   
+<form action="https://desenvolvedor.moip.com.br/sandbox/PagamentoMoIP.do" method="post">
+    <input type="hidden" name="id_carteira" value="299672020@eniac.edu.br"><br>
+    Produto:<input type="text" name="pagador_nome" value="MOLETOM PRETO REFLETIVO" disabled><br /> 
+    Valor:<input type="text" name="pagador_nome" value="$169.90" disabled><br />  
+    Peso Frete:<input type="text" name="pagador_nome" value="Valor do frete" disabled><br />  
+    Nome completo: <input type="text" name="pagador_nome" value="Nome Completo"><br /> 
+    Email: <input type="text" name="pagador_email" value=""><br />    
+    Telefone: <input type="text" name="pagador_telefone" value="(xx)xxxx-xxxx"><br />  
+    Rua: <input type="text" name="pagador_logradouro" value=""><br /> 
+    Numero: <input type="text" name="pagador_numero" value=""><br /> 
+    Complemento: <input type="text" name="pagador_complemento" value=""><br />
+    Bairro: <input type="text" name="pagador_bairro" value=""><br />
+    CEP: <input type="text" name="pagador_cep" value=""><br />  
+    Cidade: <input type="text" name="pagador_cidade" value=""><br />
+    Estado: <input type="text" name="pagador_estado" value=""><br />  
+    <input type="hidden" name="pagador_pais" value="Brasil">  
+    CPF: <input type="text" name="pagador_cpf" value=""><br />   
+    <input type="hidden" name="url_retorno" value="https://sualoja.com.br/notificacao/">
+    <input type="Submit" class="btn">
+
+</form>
+
+
+  
+
+ </div>
+<!--------footer---------->
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      </div>
+
+       <div class="footer-col-2">
+        <img src="C:\Users\55119\Desktop\Site\img\Ikezaki.png">
+      </div>
+
+      <div class="footer-col-3">
+        <h3>Redes sociais</h3>
+         <ul>
+          <li><a href="https://m.facebook.com/Ikezaki-Racing-708913446118278/">Facebook</a></li>
+          <li><a href="https://lista.mercadolivre.com.br/ikesaki-oficial#D[A:ikesaki%20oficial,L:undefined]"> Mercado livre</a></li>
+        </ul>
+      </div>
+      
+    </div>
+      <hr>
+      <p class="copyright">Projeto 2021- Web Standarts</p>
+  </div>
+</div>
+
+
+<!--------js for toggle menu------>
+<script>
+  var MenuItens = document.getElementById("MenuItens");
+  MenuItens.style.maxHeight ="0px";
+  function menutoggle(){
+    if(MenuItens.style.maxHeight =="0px")
+    {
+      MenuItens.style.maxHeight== "200px";
+    }
+    else
+    {
+      MenuItens.style.maxHeight =="0px";
+    }
+  }
+</script>
+ </body>
+ </html>
